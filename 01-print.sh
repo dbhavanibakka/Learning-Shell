@@ -46,6 +46,7 @@ echo -e "\e[35mDemo on vars from file on play levelin blMAGENTAue Color\e[0m"
       ansible.builtin.debug:
         msg: URL = {{ URL }}
 
+
 - name: Access fact
   hosts: all
   connection: local
